@@ -1,0 +1,225 @@
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.texto_grande {
+    font-size: 50px;
+    transition: 0.5s;
+}
+
+.texto_pequeno {
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.foto_com_mouse {
+    width: 220px;
+    height: 220px;
+    transition: 0.5s;
+}
+
+.foto_sem_mouse {
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+#acender, #escuro {
+    cursor: pointer;
+}
+
+.escuro {
+    background-color: #0b0b0b;
+    color: #fff;
+    transition: 2s;
+}
+
+.claro {
+    background-color: #fde6ef;
+    color: #333;
+    transition: 2s;
+}
+
+#capa{
+  width: 100vw;
+}
+header{
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+nav#menu {
+  display: flex;
+  margin: center;
+}
+
+nav#menu ul {
+  list-style: none;
+  text-transform: uppercase;
+  display: flex;
+  padding: 0;
+  align-items: center;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90vw;
+}
+
+nav#menu li{
+    height: 6vh;
+    text-align: center;
+    background-color: rgb(212, 145, 119);
+    text-decoration: none;
+    border-radius: 2vh ;
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5vw;
+    font-size: 1em;
+}
+
+hr{
+  padding-left: 2vw;
+  padding-right: 2vw;
+  width: 90vw;
+  height: .5vh;
+  border-radius: 15vh;
+  background-color:  rgb(212, 145, 119);
+  border: none;
+}
+
+#img{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+body {
+  background: #0f0202;
+  margin: 0; 
+  width: 100vw;
+}
+
+ 
+h1{
+  color: rgb(247, 186, 175);
+  text-decoration: rgb(94, 94, 94);
+  font-size: 2.5em;
+  margin-bottom: 30vh;
+}
+
+h2 {
+    font-style: Roboto;
+    color: rgb(230, 165, 165);
+    text-align: left;
+    font-size: 3em;
+    margin-left: 2vw;
+    margin-bottom: 1vw;
+}
+
+h6 {
+    font-style: Roboto;
+    color: rgb(212, 145, 119);
+    text-align: left;
+    font-size: 3em;   
+}
+
+a{
+  color: rgb(54, 23, 23);
+}
+
+p{
+  color: rgb(139, 138, 138);
+  text-decoration: rgb(160, 80, 80);
+  font-size: 1.5em;
+  width: 90vw;
+  margin-left: 2vw;
+}
+
+section{
+   height: 50vh;
+   margin-bottom: 5vh;
+}
+
+section img{
+  width: 40vh;
+  height: 40vh;
+  margin-right: 2vw;
+}
+
+#Formacao_Academica{
+   margin-left:2%;
+}
+
+#Experiencia{
+   margin-left:2%;
+}
+
+#Skills{
+   margin-left:2%;
+}
+
+#Idiomas{
+   margin-left:2%;
+}
+
+#Atividades_Complementares{
+   margin-left:2%;
+}
+
+#Sobre{
+  margin-left:2%;
+}
+
+#tempo{
+   margin-left:10%;
+}
+
+#oi{
+  margin-left:10%;
+}
+
+#mundo{
+  margin-left:10%;
+}
+
+#minhafoto{
+  margin-left:6%;
+}
+
+#folha{
+  margin-left:10%;
+}
+
+hr{
+  padding-left: 2vw;
+  padding-right: 2vw;
+  width: 90vw;
+  height: .5vh;
+  border-radius: 15vh;
+  background-color:  rgb(212, 145, 119);
+  border: none;
+}
+
+#img{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+#img img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 45vh;
+  height: 45vh;
+}
+
+
+

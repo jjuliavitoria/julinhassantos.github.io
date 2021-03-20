@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Júlia Vitória</title>
+    <link rel="stylesheet" href="estilo.css" type="text/css"/>
+    <meta charset="UTF-8">
+    <meta name="descrição" content="Minha página web">
+    <meta name="keywords" content= "HTML,CSS,JavaScript">
+    <meta name="autora" content="Júlia Vitória">
+    <meta name="viewport" content="width=device-width">
+    <title>Júlia Vitoria</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body class="claro">
+
+    <header>  
+       <img id="capa"  alt= "Capa" src= "fotos/pageju.png" />  
+    </header>
+
+    <nav id="menu">
+      <ul> 
+        <button id="acender">Modo claro</button>
+        <li><a href="#Sobre">Sobre mim</a></li>
+        <li><a href="#Formacao_Academica">Formação Acadêmica</a></li>
+        <li><a href="#Experiencia">Experiência</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Idiomas">Idiomas</a></li>
+        <li><a href="#Atividades_Complementares">Atividades Complementares</a></li>
+        <button id="escuro">Modo escuro</button>
+      </ul>
+    </nav>
+
+    <section id="ju">
+    <img id="oi"  alt= "oi" src= "fotos/oi.png" align= "left"/> 
+    <h1>
+        Olá! Meu nome é Júlia Vitória e essa é a minha página.
+    </h1>    
+   </section>
+   <hr>
+
+    <section id="Sobre">
+      <h2>Sobre mim</h2>
+      <img id="minhafoto" src="fotos/minhafoto.png" width="200" height="200" align="left"/>
+      <p>
+        Responsável, focada, bom trabalho em equipe, dedicada, facilidade em aprender e capacidade de análise e solução de problemas. Dedicação ao trabalho exigido e facilidade para trabalhar em equipe.
+      </p>
+    </section>
+    <hr>
+    
+    <section id="Formacao_Academica">
+        <div id="apresentacao">
+        <h2>Formação Acadêmica</h2>
+        <img id="if"  alt= "if" src= "fotos/if.png" align= "left"/>
+        <p>
+          Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP
+          Ensino Médio integrado ao técnico em informática
+          Cursando: 3º ano
+          CURSANDO – 2018 – 2021.
+        </p>
+      </section>
+      <hr>
+  
+   <section id="Experiencia">
+       <h2>Experiência</h2>
+       <img id="experiencia"  alt= "experiencia" src= "fotos/folha.png" align= "left" />
+       <p> Responsável pela parte gráfica (utilizando a ferramenta “Adobe Photoshop” e "Paint") para um TCA (Trabalho de conclusão de ano). IFSP Novembro/2018.
+    </p>
+    </section>
+    <hr>
+
+    <section id="Skills">
+      <h2>Skills</h2>
+      <img id="skills"  alt= "skills" src= "fotos/skills.png" align= "left" />
+      <p> - Pacote Office (intermediário);</p>
+      <p> - Linguagem C (basíco);</p>
+      <p> - Java - CURSANDO</p>
+      <p> -Desenvolvimento Web (HTML e CSS) - CURSANDO</p>
+      <p> - SQL (básico) - CURSANDO</p>
+    </section>
+   <hr>
+
+    <section id="Idiomas">
+        <h2>Idiomas</h2>
+        <img id="idiomas"  alt= "idiomas" src= "fotos/mundo.png" align= "left"/>
+        <p>Inglês – Basíco</p>
+        <p>Espanhol – Basíco</p>
+    </section>
+    <hr>
+
+    <section id="Atividades_Complementares">
+      <h2>Atividades Complementares</h2>
+      <img id="tempo"  alt= "tempo" src= "fotos/tempo.png" align= "left" />
+    <p>
+       Participação no Setup “Innovation Camp”; IFSP SETEMBRO/2019
+    <p>
+       Projeto escolar: Desenvolvimento do jogo “Combate Biológico” - (Linguagem C++, plataforma: Unity); IFSP NOVEMBRO/2018
+    </p>
+    </section>
+   <hr>
+
+     <section id="img">
+        <img id="atividades"  alt= "atividades" src= "fotos/atividades.png"/>
+        <img id="jogo"  alt= "jogo" src= "fotos/jogo.png"/>
+      </section>
+     
+    <section class="contato">
+        <h2>Contato</h2>
+        <p><a
+        href="mailto:jjuliavitoria02@gmail.com">jjuliavitoria02@gmail.com</a></p>
+    </section>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        
+        $("#acender").click(function() {
+            $("body").removeClass("escuro");
+            $("body").addClass("claro");
+        });
+
+        $("#escuro").click(function() {
+            $("body").addClass("escuro");
+            $("body").removeClass("claro");
+        })
+
+        $("#minhafoto").mouseenter(function() {
+            $(this).addClass("foto_com_mouse");
+            $(this).removeClass("foto_sem_mouse");
+        });
+
+        $("#minhafoto").mouseleave(function() {
+            $(this).removeClass("foto_com_mouse");
+            $(this).addClass("foto_sem_mouse");
+        });
+
+
+    });
+</script>
+
+</html>
